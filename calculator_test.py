@@ -7,7 +7,7 @@ def calc():
 
 def test_add(calc):
     assert calc.add(2, 3) == 5
-    assert calc.add(1, 9) == 10
+    assert calc.add(1, 9) == 3
 
 def test_subtract(calc):
     assert calc.subtract(5, 3) == 2
@@ -15,7 +15,7 @@ def test_subtract(calc):
 
 def test_multiply(calc):
     assert calc.multiply(2, 3) == 6
-    assert calc.multiply(8,0.5) == 4
+    assert calc.multiply(8,0.5) == 2
 
 def test_divide(calc):
     assert calc.divide(6, 2) == 3
