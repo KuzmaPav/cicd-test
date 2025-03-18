@@ -26,9 +26,7 @@ def test_divide_by_zero(calc):
         calc.divide(6, 0)
         calc.divide(0, 0)
 
-
-#test_add(calculator)
-#test_subtract(calculator)
-#test_multiply(calculator)
-#test_divide(calculator)
-#test_divide_by_zero(calculator)
+def test_get_random(calc):
+    assert calc.get_radnom(0,6) <= 6
+    assert calc.get_radnom(1,4) >= 1
+    assert not calc.get_radnom(2,5) > 5 
