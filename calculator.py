@@ -17,5 +17,5 @@ class Calculator:
             raise ValueError("Cannot divide by zero")
         return a / b
 
-    def get_radnom(self, a:int, b:int) -> int:
+    def get_radnom(self, a: int, b: int) -> int:
         return randint(a, b)
