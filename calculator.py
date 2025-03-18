@@ -1,5 +1,6 @@
 from random import randint
 
+
 class Calculator:
 
     def add(self, a, b):
